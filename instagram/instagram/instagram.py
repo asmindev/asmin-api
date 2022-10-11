@@ -10,6 +10,9 @@ import json
 
 
 class Instagram(Session):
+    """
+    Instagram module
+    """
     HTTP_OK = 200
 
     def __init__(self, user_agent: Text | Any = None):
